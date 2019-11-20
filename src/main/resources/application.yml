@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  address:
+  servlet:
+    context-path: /OaManager
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/db_person
+    username: root
+    password: 111111
+    driver-class-name: com.alibaba.druid.proxy.DruidDriver
+
